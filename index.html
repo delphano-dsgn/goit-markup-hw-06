@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
+    <!-- header -->
     <header class="page-header">
         <div class="container header-container">
             <nav class="header-nav">
@@ -38,11 +39,40 @@
                 </svg>
             </button>
         </div>
+        <!-- mobile menu -->
         <div class="mobile-menu" data-menu>
             <div class="container mobile-menu-container">
-                <button class="mobile-menu-close" data-menu-close>Close</button>
-                <nav class="mobile-menu-nav">Navigation</nav>
-                <address></address>
+                <button class="modal-close-button" data-menu-close>
+                    <svg class="modal-close-icon" width="8" height="8">
+                        <use href="./images/icons.svg#icon-close"></use>
+                    </svg>
+                </button>
+                <nav class="mobile-menu-nav">
+                    <ul class="mobile-nav-list">
+                        <li class="mobile-nav-item">
+                            <a class="mobile-nav-link current" href="./index.html">Studio
+                            </a>
+                        </li>
+                        <li class="mobile-nav-item">
+                            <a class="mobile-nav-link" href="">Portfolio </a>
+                        </li>
+                        <li class="mobile-nav-item">
+                            <a class="mobile-nav-link" href="">Contacts </a>
+                        </li>
+                    </ul>
+                </nav>
+                <address>
+                    <ul class="mobile-contacts-list">
+                        <li class="mobile-contacts-item">
+                            <a class="mobile-contacts-link accent" href="tel:+110001111111">
+                                +11 (000) 111-11-11</a>
+                        </li>
+                        <li class="mobile-contacts-item">
+                            <a class="mobile-contacts-link" href="mailto:info@devstudio.com">
+                                info@devstudio.com</a>
+                        </li>
+                    </ul>
+                </address>
                 <ul class="menu-socials">
                     <li class="menu-social-item">
                         <a href="#" class="menu-social-link">
@@ -74,11 +104,10 @@
                     </li>
                 </ul>
             </div>
-
         </div>
     </header>
     <main>
-        <section id="hero" class="hero section hidden">
+        <section id="hero" class="hero section">
             <!-- Hero section -->
              <div class="container hero-container">
                 <h1 class="hero-title">Effective Solutions
@@ -86,7 +115,7 @@
                 <button class="hero-btn" type="button" data-modal-open>Order Service</button>
             </div>
         </section>
-        <section id="benefits" class="benefits section hidden">
+        <section id="benefits" class="benefits section">
             <!-- Our bennefits -->
             <div class="container">
                 <h2 class="visually-hidden">Our bennefits</h2>
