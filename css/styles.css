@@ -1182,6 +1182,8 @@ box-shadow:
 }
 
 .subscribe-input:focus {
-    border-color: #31d0aa;
+border-color: #31d0aa;
     outline: none;
     box-shadow: 0 0 5px rgba(49, 208, 170, 0.5);
+}
+   
